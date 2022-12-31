@@ -4,31 +4,30 @@
   margin: 0;
 }
 body {
-  display: flex;
+  margin: 0;
+  padding: 0;
 }
+
 .side {
   background-color: #1c1c1c;
-  width: 40%;
+  /* width: 40%; */
   font-family: "Ubuntu";
   font-style: normal;
-  font-weight: 400;
-  font-size: 40px;
-  line-height: 75px;
+ 
   color: #ffffff;
 }
-.side .text {
+/* .side .text {
   width: 400px;
   margin: 50% auto;
-}
+} */
 .side h1 {
   font-family: "Poppins";
   font-style: normal;
-  font-weight: 600;
-  font-size: 80px;
-  line-height: 75px;
+  font-size: auto;
 }
 .wrap {
-  width: 369px;
+  max-width: 369px;
+  min-width: 320px;
   height: 663px;
   margin: 30px auto;
   background: #1c1c1c;
