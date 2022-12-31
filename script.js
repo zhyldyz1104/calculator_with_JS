@@ -55,8 +55,9 @@ document.querySelector('.buttons').onclick = (event) => {
             case '/':
                 a = (+a) / (+b)
                 break
-            case 'x':
+            case '*':
                 a = (+a) * (+b)
+                console.log('hey');
                 break
         }
         finish = true
